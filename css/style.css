@@ -1,0 +1,160 @@
+*{
+    list-style-type: none;
+}
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.ul-menu{
+    background-color: #333;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+}
+.li-menu{
+    float: right;
+}
+.a-menu{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+    padding: 17px;
+}
+.li-menu a:hover{
+    background-color: black;
+}
+.title-menu{
+    font-size: 40px; 
+    display: inline;
+}
+.column{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.profile{
+    width: 200px;
+    height: 190px;
+    border-radius: 200px;
+}
+.social{
+    width: 25px;
+    padding: 5px;
+}
+#instaa{
+    width: 35px;
+}
+.left{
+    width: 20%;
+    float: left;
+}
+.right{
+    width: 80%;
+    float: left;
+}
+.row{
+    padding: 15px;
+}
+.row:after{
+    display: table;
+    clear: both;
+    content: "";
+}
+.main-bar{
+    background-color: gray;
+    display: block;
+    height: 25px;
+}
+.main-bar span{
+    background-color: teal;
+    height: 25px;
+    display: block;
+    color: white;
+}
+.c{
+    width: 90%;
+    animation: c 2s;
+}
+.javascript{
+    width: 70%;
+    animation: javascript 2s;
+}
+.html{
+    width: 80%;
+    animation: html 2s;
+}
+.css{
+    width: 75%;
+    animation: css 2s;
+}
+.python{
+    width: 65%;
+    animation: python 2s;
+}
+@keyframes c {
+    0%{
+        width: 0%;
+        background-color: rgb(144, 195, 240);
+    }
+    100%{
+        width: 90%;
+        background-color: teal;
+    }
+}
+@keyframes javascript {
+    0%{
+        width: 0%;
+        background-color: rgb(144, 195, 240);
+    }
+    100%{
+        width: 70%;
+        background-color: teal;
+    }
+}
+@keyframes html {
+    0%{
+        width: 0%;
+        background-color: rgb(144, 195, 240);
+    }
+    100%{
+        width: 80%;
+        background-color: teal;
+    }
+}
+@keyframes css {
+    0%{
+        width: 0%;
+        background-color: rgb(144, 195, 240);
+    }
+    100%{
+        width: 75%;
+        background-color: teal;
+    }
+}
+@keyframes python {
+    0%{
+        width: 0%;
+        background-color: rgb(144, 195, 240);
+    }
+    100%{
+        width: 65%;
+        background-color: teal;
+    }
+}
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width:800px) {
+    .column{
+        width: 100%;
+    }
+    
+}
